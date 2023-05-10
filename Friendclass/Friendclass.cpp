@@ -18,3 +18,8 @@ public:
 	void setid(int pid);
 	void displayall(orang& a);
 };
+
+
+void siswa::displayall(orang& a) {
+	cout << id << endl << a.nama;
+}
