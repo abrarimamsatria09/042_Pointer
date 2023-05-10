@@ -31,3 +31,15 @@ void siswa::setid(int pid) {
 void orang::setnama(string pnama) {
 	nama = pnama;
 }
+
+int main()
+{
+	orang o;
+	o.setnama("joko kumat");
+	siswa s;
+	s.setid(1);
+	s.displayall(o);
+	cout << endl;
+	system("pause");
+	return 0;
+}
