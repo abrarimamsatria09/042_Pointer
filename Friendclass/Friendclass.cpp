@@ -27,3 +27,7 @@ void siswa::displayall(orang& a) {
 void siswa::setid(int pid) {
 	id = pid;
 }
+
+void orang::setnama(string pnama) {
+	nama = pnama;
+}
